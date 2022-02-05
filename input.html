@@ -1,1 +1,18 @@
+import React from 'react';
+import './input.css'
 
+const Input = ({name, inputType, label, id, placeholder, text}) => {
+            
+
+
+  return (
+  <div>
+
+        <label for={label} className='form-label'>{text} </label>
+      <input type={inputType} className='form-control' id={id} onChange={} name={name} value={} placeholder={placeholder}/>
+
+  </div>
+  );
+};
+
+export default Input;
